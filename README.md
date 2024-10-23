@@ -4,11 +4,14 @@
 2) Luego a cmd (nodo, etc.):
 
    cd DA-pisos  --"file name"
+   
    code .
 
-3) Abra Visual Studio y escríbalos en Terminal:
+
+4) Abra Visual Studio y escríbalos en Terminal:
    
    npm install
+   
    npm start
 
    
