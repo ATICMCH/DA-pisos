@@ -7,14 +7,11 @@
    
    code .
 
-
 4) Abra Visual Studio y escríbalos en Terminal:
    
    npm install
    
    npm start
-
-   
 
 ![image](https://github.com/user-attachments/assets/a69fbc1e-5c48-430c-bb58-98e76e001454)
 
