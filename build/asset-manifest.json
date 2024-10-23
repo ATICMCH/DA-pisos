@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1d0442cb.css",
+    "main.js": "/static/js/main.bcb9f09b.js",
+    "static/media/final-image.png": "/static/media/final-image.747e91683df3720f2727.png",
+    "static/media/mycityhome-logo.png": "/static/media/mycityhome-logo.a9c12cc32045020a36fb.png",
+    "index.html": "/index.html",
+    "main.1d0442cb.css.map": "/static/css/main.1d0442cb.css.map",
+    "main.bcb9f09b.js.map": "/static/js/main.bcb9f09b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d0442cb.css",
+    "static/js/main.bcb9f09b.js"
+  ]
+}
