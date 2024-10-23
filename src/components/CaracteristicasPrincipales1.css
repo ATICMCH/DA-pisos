@@ -1,0 +1,55 @@
+.caracteristicas-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.icono {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #2e7ecf; /* Keep the icon color */
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input-label {
+    font-size: 16px;
+    color: #000; /* Ensure the label text is black */
+    margin-right: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #000; /* Ensure the entered text is black */
+}
+
+/* Change the placeholder text to gray */
+input::placeholder {
+    color: #888; /* Gray color for the placeholder text */
+}
+
+.nav-button {
+    background-color: #2e7ecf;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #1a5d98;
+}

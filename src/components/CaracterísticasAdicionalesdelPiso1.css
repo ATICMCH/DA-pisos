@@ -1,0 +1,91 @@
+.caracteristicas-adicionales-container {
+    background-color: #87CEFA;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    color: #000;
+}
+
+.caracteristicas-adicionales-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.caracteristicas-adicionales-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.caracteristicas-adicionales-container .input-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #4682B4; /* Thinner, cleaner border */
+}
+
+.caracteristicas-adicionales-container .input-item .icono {
+    background-color: #4682B4;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.caracteristicas-adicionales-container .input-item input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 8px;
+    font-size: 14px; /* Slightly smaller font size */
+    background-color: transparent;
+    color: #000;
+}
+
+.caracteristicas-adicionales-container .input-item input::placeholder {
+    color: #888; /* Gray placeholder */
+    font-style: normal; /* Keep normal style for placeholder */
+}
+
+.caracteristicas-adicionales-container .input-item input:focus {
+    border: none;
+    outline: none;
+}
+
+.caracteristicas-adicionales-container .input-item select {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+    background-color: transparent; /* Transparent background for cleaner look */
+    color: #000;
+}
+
+.caracteristicas-adicionales-container .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.caracteristicas-adicionales-container .nav-button {
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.caracteristicas-adicionales-container .nav-button:hover {
+    background-color: #5A9BD5;
+}
