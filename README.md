@@ -17,5 +17,6 @@
 
 Esta aplicación guarda su información sobre apartamentos.
 
-![image](https://github.com/user-attachments/assets/760f0eab-0392-4098-8cde-0825b8c0d1c1)
+![image](https://github.com/user-attachments/assets/853f2a3c-f74a-44ec-8f3d-4b251e0c5264)
+
 
