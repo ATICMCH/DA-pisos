@@ -1,0 +1,104 @@
+/* AccesoriosdelHogar.css */
+.accesorios-container {
+    background-color: #87CEFA;
+    padding: 15px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #000;
+}
+
+.accesorios-container h1 {
+    font-size: 22px; /* Шрифт өлшемін азайту */
+    margin-bottom: 15px;
+}
+
+.accesorios-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.accesorios-container .input-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #4682B4; /* Бордерді 1px етіп азайту */
+}
+
+.accesorios-container .input-item .icono {
+    background-color: #4682B4;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+    font-size: 18px; /* Иконканы кішірейту */
+}
+
+.accesorios-container .input-item select {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 8px;
+    font-size: 14px; /* Шрифт өлшемін азайту */
+}
+
+.accesorios-container .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.accesorios-container .nav-button {
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.accesorios-container .nav-button:hover {
+    background-color: #5A9BD5;
+}
+
+.accesorios-container .page-select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #4682B4;
+    font-size: 14px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 480px) {
+    .accesorios-container h1 {
+        font-size: 18px;
+    }
+
+    .accesorios-container .input-item .icono {
+        font-size: 16px;
+        padding: 6px;
+        margin-right: 6px;
+    }
+
+    .accesorios-container .input-item select {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    .accesorios-container .nav-button {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .accesorios-container .page-select {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,92 @@
+/* Overall container styling */
+.info-general-container {
+    background-color: #87CEFA;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #000;
+}
+
+.info-general-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.info-general-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input item styling */
+.info-general-container .input-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid #4682B4;
+}
+
+.info-general-container .input-item .icono {
+    background-color: #4682B4;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.info-general-container .input-item input,
+.info-general-container .input-item select {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Navigation container to hold buttons and the dropdown */
+.info-general-container .navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Styling for the navigation buttons */
+.info-general-container .nav-button {
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.info-general-container .nav-button:hover {
+    background-color: #5A9BD5;
+}
+
+/* Styling for the dropdown (select) in the middle */
+.info-general-container .page-select {
+    width: 60%;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #4682B4;
+    border-radius: 5px;
+    background-color: white;
+    color: #000;
+}
+
+/* Adjust gap between buttons and dropdown */
+.info-general-container .navigation-container .nav-button,
+.info-general-container .navigation-container .page-select {
+    margin: 0 10px;
+}

@@ -1,0 +1,98 @@
+/* InformacionGeneral2.css */
+.info-general-container {
+    background-color: #87CEFA;
+    padding: 10px; /* Reduce padding */
+    border-radius: 8px;
+    width: 100%;
+    max-width: 450px; /* Further reduce max-width */
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #000;
+}
+
+.info-general-container h1 {
+    font-size: 18px; /* Reduce font size */
+    margin-bottom: 10px; /* Reduce margin */
+}
+
+.info-general-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Reduce gap between items */
+}
+
+/* Input item styling */
+.info-general-container .input-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    padding: 4px; /* Reduce padding */
+    border: 1px solid #4682B4; /* Thinner border */
+}
+
+.info-general-container .input-item .icono {
+    background-color: #4682B4;
+    color: white;
+    padding: 6px; /* Reduce icon padding */
+    border-radius: 50%;
+    margin-right: 6px; /* Reduce margin */
+    font-size: 14px; /* Reduce font size */
+}
+
+.info-general-container .input-item input,
+.info-general-container .input-item select {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 6px; /* Reduce padding */
+    font-size: 14px; /* Reduce font size */
+}
+
+/* Checkbox group styling for vertical alignment */
+.info-general-container .checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px; /* Reduce space between checkboxes */
+}
+
+/* Navigation container to hold buttons and the dropdown */
+.info-general-container .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px; /* Reduce margin */
+}
+
+/* Styling for the navigation buttons */
+.info-general-container .nav-button {
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    padding: 6px 14px; /* Reduce padding */
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px; /* Reduce font size */
+    transition: background-color 0.3s ease;
+}
+
+.info-general-container .nav-button:hover {
+    background-color: #5A9BD5;
+}
+
+/* Styling for the dropdown (select) in the middle */
+.info-general-container .page-select {
+    width: 50%; /* Reduce width */
+    padding: 5px; /* Reduce padding */
+    font-size: 14px; /* Reduce font size */
+    border: 1px solid #4682B4; /* Thinner border */
+    border-radius: 4px;
+    background-color: white;
+    color: #000;
+}
+
+.info-general-container .navigation-buttons .nav-button,
+.info-general-container .navigation-buttons .page-select {
+    margin: 0 5px; /* Reduce margin between elements */
+}

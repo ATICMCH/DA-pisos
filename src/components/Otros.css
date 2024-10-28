@@ -1,0 +1,114 @@
+/* Otros.css */
+.otros-container {
+    background-color: #87CEFA;
+    padding: 15px; /* Ішкі отыруды азайту */
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px; /* Максималды енін азайту */
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #000;
+}
+
+.otros-container h1 {
+    font-size: 22px; /* Тақырып шрифтін азайту */
+    margin-bottom: 15px;
+}
+
+.otros-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Элементтер арасындағы бос орынды азайту */
+}
+
+.otros-container .input-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #4682B4; /* Бордерді 1px етіп азайту */
+}
+
+.otros-container .input-item .icono {
+    background-color: #4682B4;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+    font-size: 18px; /* Иконка өлшемін азайту */
+}
+
+.otros-container .input-item input,
+.otros-container .input-item textarea {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 8px;
+    font-size: 14px; /* Шрифт мөлшерін азайту */
+    background-color: transparent;
+    color: #000;
+}
+
+.otros-container .input-item input::placeholder,
+.otros-container .input-item textarea::placeholder {
+    color: #888;
+}
+
+.otros-container .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.otros-container .nav-button {
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px; /* Шрифт мөлшерін азайту */
+    transition: background-color 0.3s ease;
+}
+
+.otros-container .nav-button:hover {
+    background-color: #5A9BD5;
+}
+
+.otros-container .page-select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #4682B4;
+    font-size: 14px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 480px) {
+    .otros-container h1 {
+        font-size: 18px; /* Кіші экран үшін тақырып шрифтін азайту */
+    }
+
+    .otros-container .input-item .icono {
+        font-size: 16px;
+        padding: 6px;
+        margin-right: 6px;
+    }
+
+    .otros-container .input-item input,
+    .otros-container .input-item textarea {
+        padding: 6px;
+        font-size: 13px;
+    }
+
+    .otros-container .nav-button {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .otros-container .page-select {
+        font-size: 13px;
+    }
+}

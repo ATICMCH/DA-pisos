@@ -1,0 +1,113 @@
+/* Cocina1.css */
+.info-general-container {
+    background-color: #87CEFA;
+    padding: 15px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #000;
+}
+
+.info-general-container h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.info-general-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.info-general-container .input-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #4682B4;
+}
+
+.info-general-container .input-item .icono {
+    background-color: #4682B4;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.info-general-container .input-item input,
+.info-general-container .input-item select {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+    background-color: transparent;
+    color: #000;
+}
+
+.info-general-container .input-item input::placeholder {
+    color: #888;
+}
+
+.info-general-container .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.info-general-container .nav-button {
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.info-general-container .nav-button:hover {
+    background-color: #5A9BD5;
+}
+
+.info-general-container .page-select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #4682B4;
+    font-size: 14px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 480px) {
+    .info-general-container h1 {
+        font-size: 18px;
+    }
+
+    .info-general-container .input-item .icono {
+        font-size: 16px;
+        padding: 6px;
+        margin-right: 6px;
+    }
+
+    .info-general-container .input-item input,
+    .info-general-container .input-item select {
+        padding: 6px;
+        font-size: 13px;
+    }
+
+    .info-general-container .nav-button {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .info-general-container .page-select {
+        font-size: 13px;
+    }
+}
